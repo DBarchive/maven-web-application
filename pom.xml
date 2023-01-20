@@ -21,13 +21,18 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.109.214.81:9000/</sonar.host.url>
+		<sonar.host.url>http://13.233.57.186:9000/</sonar.host.url>
                 <sonar.login>e0b6bef4e195b3fcc4a643ad5782491f12075e20</sonar.login>
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+	<repositories>
+		<repository>
+			<url>http://13.235.19.119:9980/aravindh/repository/DBarchive-remote-repo-grouped/</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		
@@ -95,16 +100,16 @@
 	
 	<distributionManagement>
 	
-	    <repository>
+	     <repository>
 	      <id>nexus</id>
-	      <name>PavithraDevOps Releases Nexus Repository</name>
-	      <url>http://172.31.41.16:9980/pavithradevops/repository/citibank-release/</url>
+	      <name>DBarchive-maven-web-release-repo</name>
+	      <url>http://13.235.19.119:9980/aravindh/repository/maven-web-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>PavithraDevOps Snapshot Nexus Repository </name>
-	      <url>http://172.31.41.16:9980/pavithradevops/repository/citibank-snapshot/</url>
+	      <name>DBarchive-maven-web-snapshot-repo</name>
+	      <url>http://13.235.19.119:9980/aravindh/repository/maven-web-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
