@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.57.186:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.37.211:9000/</sonar.host.url>
                 <sonar.login>e0b6bef4e195b3fcc4a643ad5782491f12075e20</sonar.login>
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,7 +31,7 @@
 	<repositories>
 		<repository>
 			<id>nexus</id>
-			<url>http://13.235.19.119:9980/aravindh/repository/DBarchive-remote-repo-grouped/</url>
+			<url>http://172.31.34.59:9980/aravindh/repository/DBarchive-remote-repo-grouped/</url>
 		</repository>
 	</repositories>
 
@@ -104,13 +104,13 @@
 	     <repository>
 	      <id>nexus</id>
 	      <name>DBarchive-maven-web-release-repo</name>
-	      <url>http://13.235.19.119:9980/aravindh/repository/maven-web-release/</url>
+	      <url>http://172.31.34.59:9980/aravindh/repository/maven-web-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>DBarchive-maven-web-snapshot-repo</name>
-	      <url>http://13.235.19.119:9980/aravindh/repository/maven-web-snapshot/</url>
+	      <url>http://172.31.34.59:9980/aravindh/repository/maven-web-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
