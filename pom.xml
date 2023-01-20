@@ -30,6 +30,7 @@
 	</properties>
 	<repositories>
 		<repository>
+			<id>nexus</id>
 			<url>http://13.235.19.119:9980/aravindh/repository/DBarchive-remote-repo-grouped/</url>
 		</repository>
 	</repositories>
